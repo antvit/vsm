@@ -9,7 +9,7 @@ def get_data_from_file():
 
     while True:
         try:
-            file_name = input("\nEnter file name with data in .csv format (please use for testing data_for_testing_tc.csv)>>>  ")
+            file_name = input("\nEnter file name with data in .csv format (please use for testing data_for_testing_tc.csv) >>>  ")
             with open(file_name, 'r') as csv_file:
                 csv_reader = csv.reader(csv_file, delimiter=',')
                 for row in csv_reader:
